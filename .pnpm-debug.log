@@ -1,0 +1,151 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "private": true,
+      "author": "",
+      "scripts": {
+        "dev": "umi dev",
+        "build": "umi build",
+        "postinstall": "umi setup",
+        "setup": "umi setup",
+        "start": "npm run dev"
+      },
+      "dependencies": {
+        "umi": "^4.4.5"
+      },
+      "devDependencies": {
+        "@types/react": "^18.0.33",
+        "@types/react-dom": "^18.0.11",
+        "typescript": "^5.0.3"
+      }
+    },
+    "prefix": "/Users/zhoushuai/Desktop/forever/forever"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/zhoushuai/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/zhoushuai/Desktop/forever/forever/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/zhoushuai/Desktop/forever/forever",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "message": "request to https://registry.npm.taobao.org/umi failed, reason: certificate has expired",
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/umi"
+  },
+  "5 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "message": "request to https://registry.npm.taobao.org/typescript failed, reason: certificate has expired",
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/typescript"
+  },
+  "6 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "message": "request to https://registry.npm.taobao.org/@types%2Freact-dom failed, reason: certificate has expired",
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/@types%2Freact-dom"
+  },
+  "7 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "message": "request to https://registry.npm.taobao.org/@types%2Freact failed, reason: certificate has expired",
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npm.taobao.org/@types%2Freact"
+  },
+  "8 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "message": "request to https://registry.npm.taobao.org/umi failed, reason: certificate has expired",
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/umi"
+  },
+  "9 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "message": "request to https://registry.npm.taobao.org/@types%2Freact-dom failed, reason: certificate has expired",
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/@types%2Freact-dom"
+  },
+  "10 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "message": "request to https://registry.npm.taobao.org/typescript failed, reason: certificate has expired",
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/typescript"
+  },
+  "11 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "message": "request to https://registry.npm.taobao.org/@types%2Freact failed, reason: certificate has expired",
+      "type": "system",
+      "errno": "CERT_HAS_EXPIRED",
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npm.taobao.org/@types%2Freact"
+  },
+  "12 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "pkgsStack": [],
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npm.taobao.org/umi: request to https://registry.npm.taobao.org/umi failed, reason: certificate has expired",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "Error: GET https://registry.npm.taobao.org/umi: request to https://registry.npm.taobao.org/umi failed, reason: certificate has expired\n    at RetryOperation._fn (/usr/local/Cellar/pnpm/6.9.1/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:78989:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+    }
+  }
+}
