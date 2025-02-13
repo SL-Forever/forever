@@ -1,14 +1,19 @@
 {
+  "name": "forever",
   "private": true,
-  "author": "",
+  "author": "179335141@qq.com",
+  "homepage": "https://github.com/SL-Forever/forever",
   "scripts": {
     "dev": "umi dev",
     "build": "umi build",
     "postinstall": "umi setup",
     "setup": "umi setup",
-    "start": "npm run dev"
+    "start": "npm run dev",
+     "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "umi": "^4.4.5"
   },
   "devDependencies": {
